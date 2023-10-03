@@ -8,25 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/ethanmikel/.nuget/packages/": {}
+    "/Users/jenny/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
+      "projectUniqueName": "/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
       "projectName": "TX_Luminescence",
-      "projectPath": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
-      "packagesPath": "/Users/ethanmikel/.nuget/packages/",
-      "outputPath": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/",
+      "projectPath": "/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
+      "packagesPath": "/Users/jenny/.nuget/packages/",
+      "outputPath": "/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ethanmikel/.nuget/NuGet/NuGet.Config"
+        "/Users/jenny/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
