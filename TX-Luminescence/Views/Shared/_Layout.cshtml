@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="~/lib/bootstrap-4.0.0/docs/4.0/examples/sticky-footer-navbarsticky-footer-navbar.css" rel="stylesheet">
+</head>
+<style>
+    .navbar-color {
+        background-color: #fff4e4;
+    }
+
+    /* Add CSS to ensure the footer sticks to the bottom */
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* 100% of the viewport height */
+    }
+
+    .wrapper {
+        flex: 1; /* Allow content to grow and push footer down */
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #f5f5f5;
+    }
+
+    /* Additional custom styles for your page */
+    body > .container {
+        padding: 60px 15px 0;
+    }
+
+    .footer > .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    code {
+        font-size: 80%;
+    }
+</style>
+<body>
+    <!--This is the code for the navbar -->
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="~/tx-luminescence-logo.jpg" alt="Your Logo" width="30" height="30" class="d-inline-block align-top">
+                Fixed navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="CurrentProjects">Current Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQs</a>
+                    </li>
+                </ul>
+                <form class="form-inline mt-2 mt-md-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+        <div class="container">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        This is your footer content.
+    </div>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/popper.js/umd/popper.min.js"></script>
+    <script src="~/lib/bootstrap-4.0.0/js/bootstrap.bundle.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TX-Luminescence/Program.cs">
+    <Files>
+      <File FileName="TX-Luminescence/Program.cs" Line="12" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TX-Luminescence" expanded="True">
+            <Node name="TX-Luminescence" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
