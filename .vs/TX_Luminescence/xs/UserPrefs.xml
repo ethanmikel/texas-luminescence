@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https">
+﻿<Properties StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="TX-Luminescence/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="TX-Luminescence/Views/Shared/_Layout.cshtml" Line="63" Column="45" IsPinned="True" />
@@ -37,10 +37,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
 </Properties>
