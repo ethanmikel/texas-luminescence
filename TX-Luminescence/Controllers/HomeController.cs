@@ -12,25 +12,25 @@ namespace base_folders_files.Controllers
 
     public class HomeController : Controller
     {
-        public ActionResult CurrentProjects()
+        //View Index 
+        public IActionResult Index()
         {
-            // Logic to fetch and prepare data for the "CurrentProjects" page
-            var projects = GetProjects(); // Example: Load current projects
-            return View("CurrentProjects", projects);
+            return View();
         }
-
-        public ActionResult Events()
+        [HttpGet]
+        public ViewResult CurrentProjects()
         {
-            // Logic to fetch and prepare data for the "Events" page
-            var events = GetEvents(); // Example: Load all events
-            return View("Events", events);
+            return View();
         }
-
-        public ActionResult FAQs()
+        [HttpGet]
+        public ViewResult Events()
         {
-            // Logic to fetch and prepare data for the "FAQs" page
-            var faqs = GetFAQs(); // Example: Load all FAQs
-            return View("FAQs", faqs);
+            return View();
+        }
+        [HttpGet]
+        public ViewResult FAQs()
+        {
+            return View();
         }
     }
 }
