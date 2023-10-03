@@ -55,16 +55,7 @@ Using the alert JavaScript plugin, it's possible to dismiss any alert inline. He
 - On the dismiss button, add the `data-dismiss="alert"` attribute, which triggers the JavaScript functionality. Be sure to use the `<button>` element with it for proper behavior across all devices.
 - To animate alerts when dismissing them, be sure to add the `.fade` and `.show` classes.
 
-You can see this in action with a live demo:
-
-{% example html %}
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-{% endexample %}
+You can see this in action with a live demo
 
 ## JavaScript behavior
 
