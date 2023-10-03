@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/Views/Home/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/Views/Home/CurrentProjects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJyZW50UHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -32,5 +32,10 @@ namespace base_folders_files.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public ViewResult Apply()
+        {
+            return View();
+        }
     }
 }
