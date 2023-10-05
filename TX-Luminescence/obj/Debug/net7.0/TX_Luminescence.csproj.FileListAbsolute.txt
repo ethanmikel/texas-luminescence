@@ -56,3 +56,32 @@
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/scopedcss/bundle/TX_Luminescence.styles.css
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.genruntimeconfig.cache
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/ref/TX_Luminescence.dll
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.Development.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.staticwebassets.runtime.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.deps.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.runtimeconfig.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.dll
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.pdb
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.csproj.AssemblyReference.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.AssemblyInfoInputs.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.AssemblyInfo.cs
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.csproj.CoreCompileInputs.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.MvcApplicationPartsAssemblyInfo.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.RazorAssemblyInfo.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.RazorAssemblyInfo.cs
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets/msbuild.TX_Luminescence.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets/msbuild.build.TX_Luminescence.props
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.TX_Luminescence.props
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.TX_Luminescence.props
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets.build.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/staticwebassets.development.json
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/scopedcss/bundle/TX_Luminescence.styles.css
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.dll
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/refint/TX_Luminescence.dll
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.pdb
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.genruntimeconfig.cache
+/Users/boseph/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/ref/TX_Luminescence.dll
