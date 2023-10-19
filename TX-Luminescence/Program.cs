@@ -1,12 +1,11 @@
 //add a using statement for currency
 using System.Globalization;
-//using Microsoft.EntityFrameworkCore;
-//using Microsoft.AspNetCore.Identity;
-//using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 //TODO: Update these namespaces to match your project name 
 //Be sure to remove the []
-//using TX_Luminescence.DAL;
+using TX_Luminescence.DAL;
 using TX_Luminescence.Models;
 
 //create a web application builder
@@ -17,10 +16,43 @@ builder.Services.AddControllersWithViews();
 
 //TODO: Add database on Azure so you have a connection string
 //TODO: Add a connection string here once you have created it on Azure
-String connectionString = "";
+string connectionString = "";
 
 //NOTE: This tells your application how to get a connection to the database
-//builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
+//NOTE: You need this line for including Identity in your project
+builder.Services.AddDefaultIdentity<AppUser>()
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 1;
+
+    // User settings.
+    options.User.AllowedUserNameCharacters =
+    "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+    options.User.RequireUniqueEmail = true;
+});
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    // Cookie settings
+    options.Cookie.HttpOnly = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+    options.SlidingExpiration = true;
+});
+
 
 //build the app
 var app = builder.Build();

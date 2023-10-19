@@ -1,0 +1,39 @@
+﻿@using Microsoft.AspNetCore.Identity;
+<style>
+    .custom-btn2 {
+        background-color: #fff4e4;
+        color: #000;
+        border-radius: 18px;
+        border: 2px solid #ecb42c;
+        padding: 15px;
+    }
+
+        .custom-btn2:hover {
+            background-color: #e88c24;
+            color: #fff4e4;
+            border: 2px solid #e88c24;
+        }
+</style>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-action="LogOff" asp-controller="Account" method="post" id="logoutForm" class="navbar-right" )>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a asp-action="Index" asp-controller="Account" title="Manage" class="nav-link">Hello @User.Identity.Name!</a>
+            </li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()"><span class="nav-link">Log Off</span></a></li>
+        </ul>
+    </form>
+}
+else
+{
+<ul class="nav navbar-nav navbar-right">
+     <a asp-action="Register" asp-controller="Account" id="registerLink" class="nav-link mr-2 custom-btn2">Apply</a>
+</ul>
+}

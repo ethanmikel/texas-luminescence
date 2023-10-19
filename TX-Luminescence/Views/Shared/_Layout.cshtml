@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Authorization
+@inject IAuthorizationService AuthorizationService
+@model TX_Luminescence.Models.SourceModel
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="~/lib/bootstrap-4.0.0/css/bootstrap.css" rel="stylesheet">
-
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="~/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -12,10 +15,6 @@
     <link href="~/lib/bootstrap-4.0.0/docs/4.0/examples/sticky-footer-navbarsticky-footer-navbar.css" rel="stylesheet">
 </head>
 <style>
-    .navbar-color {
-        background-color: #fff4e4;
-    }
-
     /* Add CSS to ensure the footer sticks to the bottom */
     body {
         display: flex;
@@ -32,9 +31,10 @@
         bottom: 0;
         width: 100%;
         /* Set the fixed height of the footer here */
-        height: 60px;
+        height: 8%;
         line-height: 60px; /* Vertically center the text there */
         background-color: #f5f5f5;
+        padding-left: 2%;
     }
 
     /* Additional custom styles for your page */
@@ -50,42 +50,89 @@
     code {
         font-size: 80%;
     }
+
+    .navbar-color {
+        background-color: #fff4e4;
+    }
+
+    /* Add custom link styles */
+    .custom-link {
+        color: #000; /* Default text color */
+        font-size:
+    }
+
+        .custom-link:hover {
+            color: #ecb42c; /* Text color on hover */
+        }
+    /* Custom button styles */
+    .custom-btn {
+        background-color: #ecb42c;
+        color: #000;
+        border-radius: 18px;
+        border: 2px solid #ecb42c;
+    }
+
+        .custom-btn:hover {
+            background-color: #e88c24;
+            color: #fff4e4;
+            border: 2px solid #e88c24;
+        }
+
+    .custom-btn2 {
+        background-color: #fff4e4;
+        color: #000;
+        border-radius: 18px;
+        border: 2px solid #ecb42c;
+    }
+
+        .custom-btn2:hover {
+            background-color: #e88c24;
+            color: #fff4e4;
+            border: 2px solid #e88c24;
+        }
 </style>
+<html>
 <body>
-    <!--This is the code for the navbar -->
+    <!-- This is the code for the navbar -->
     <header>
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <a href="@Url.Action("Index", "Home")" class="navbar-brand">
-                    <img src="Images/tx-luminescence-logo.jpg" title="title" alt="additional title" />
-                </a>
+        <nav class="navbar navbar-expand-md fixed-top navbar-color" style="height: 75px;">
+            <a href="@Url.Action("Index", "Home")" class="navbar-brand">
+                @*<img src="texas-luminescence/TX-Luminescence/Images/tx-luminescence-logo.jpg" title="title" alt="additional title" />*@
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="Index">About</span></a>
+                        <a class="nav-link custom-link" href="Index">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-action="CurrentProjects">CurrentProjects</a>
+                        <a class="nav-link custom-link" asp-action="CurrentProjects">Current Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-action="Events">Events</a>
+                        <a class="nav-link custom-link" asp-action="Events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-action="FAQs">FAQs</a>
+                        <a class="nav-link custom-link" asp-action="FAQs">FAQs</a>
                     </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
-                    <a class="nav-link btn btn-primary" asp-action="Contact">Contact</a>
-                    <a class="nav-link btn btn-primary" asp-action="Apply">Apply</a>
-                    @*<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>*@
+                    <a class="nav-link mr-2 custom-btn" asp-action="Contact">Contact</a>
                 </form>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <li>
+                            <a asp-controller="RoleAdmin" asp-action="Index" class="nav-link">Manage Users</a>
+                        </li>
+                    }
+                }
             </div>
+            @await Html.PartialAsync("_LoginPartial")
         </nav>
-
     </header>
 
     <div class="wrapper">
@@ -96,12 +143,9 @@
 
     <!-- Footer -->
     <div class="footer">
-        This is your footer content.
+        All rights reserved to Texas Luminescence 2023.
     </div>
 
-    <script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/popper.js/umd/popper.min.js"></script>
-    <script src="~/lib/bootstrap-4.0.0/js/bootstrap.bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

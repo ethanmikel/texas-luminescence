@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using static TX_Luminescence.Models.SourceModel;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace base_folders_files.Controllers
+namespace TX_Luminescence.Controllers
 {
     // Controllers/HomeController.cs
 
@@ -29,11 +30,6 @@ namespace base_folders_files.Controllers
         }
         [HttpGet]
         public ViewResult FAQs()
-        {
-            return View();
-        }
-        [HttpGet]
-        public ViewResult Apply()
         {
             return View();
         }
