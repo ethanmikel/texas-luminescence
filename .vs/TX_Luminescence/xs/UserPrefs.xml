@@ -1,30 +1,33 @@
 ﻿<Properties StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TX-Luminescence/Views/_ViewImports.cshtml">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/Controllers/HomeController.cs" relfile="TX-Luminescence/Controllers/HomeController.cs" line="36" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TX-Luminescence/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="TX-Luminescence/Views/Shared/_Layout.cshtml" Line="61" Column="27" />
-      <File FileName="TX-Luminescence/Program.cs" Line="1" Column="1" />
-      <File FileName="TX-Luminescence/Views/_ViewImports.cshtml" Line="13" Column="17" />
-      <File FileName="TX-Luminescence/Controllers/HomeController.cs" Line="42" Column="2" />
+      <File FileName="TX-Luminescence/Views/Shared/_Layout.cshtml" Line="17" Column="1" />
+      <File FileName="TX-Luminescence/Program.cs" />
+      <File FileName="TX-Luminescence/Views/_ViewImports.cshtml" />
+      <File FileName="TX-Luminescence/Controllers/HomeController.cs" />
       <File FileName="TX-Luminescence/Views/Home/Index.cshtml" />
-      <File FileName="TX-Luminescence/Models/SourceModel.cs" Line="10" Column="2" />
+      <File FileName="TX-Luminescence/Models/SourceModel.cs" />
       <File FileName="TX-Luminescence/Views/Home/CurrentProjects.cshtml" />
       <File FileName="TX-Luminescence/Views/Home/Events.cshtml" />
       <File FileName="TX-Luminescence/Views/Home/FAQs.cshtml" />
-      <File FileName="TX-Luminescence/Views/Home/Apply.cshtml" />
-      <File FileName="TX-Luminescence/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="TX-Luminescence/Views/_ViewStart.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TX_Luminescence" expanded="True">
-            <Node name="TX_Luminescence">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Images" expanded="True" />
+            <Node name="TX_Luminescence" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
-                <Node name="_ViewImports.cshtml" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -32,12 +35,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/Controllers/HomeController.cs" relfile="TX-Luminescence/Controllers/HomeController.cs" line="36" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
