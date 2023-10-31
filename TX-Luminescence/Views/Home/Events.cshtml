@@ -6,11 +6,90 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Party!</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="js/src/news.js"></script>
 </head>
+
+<!-- Styling for newsletter -->
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .newsletter {
+        padding: 30px;
+        margin-top: 70%;
+    }
+
+    .newsletter h2 {
+        font-size: 26px;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+    }
+
+    .newsletter p {
+        color: #999;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .form-box {
+        border-radius: 5px;
+        background-color: #f4f4f4;
+        border: 1px solid #d4d4d4;
+        height: 46px;
+    }
+
+    .form-box input {
+        font-size: 18px;
+        color: #000;
+        border: none;
+        outline: none;
+        background-color: #f4f4f4;
+        width: 60%;
+        height: 42px;
+    }
+
+    .form-box button {
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4769d8;
+        cursor: pointer;
+        transition: .3s;
+        width: 25%;
+        margin-left: 50px;
+    }
+
+    .form-box button:hover {
+        background-color: #2e54d3
+    }
+</style>
 <body>
     <div>
         <div class="text-center">
+            <h3>We're going to have an exciting party. </h3>
+            <a asp-action="RsvpForm" class="btn btn-primary">RSVP Now</a>
+            <img src="~/Images/tx-luminescence-logo.jpg" alt="Your Logo" width="30" height="30" class="d-inline-block align-top">
+        </div>
+
+        <!-- Newsletter -->
+        <div class="newsletter">
+            <h2>Join Our Newsletter</h2>
+            <p>Stay up to date with the latest information from Texas Luminescence!</p>
+            <form action="#">
+                <div class="form-box">
+                    <input type="email" name="emailAddress" id="emailAddress" placeholder="Email" required />
+                    <input type="hidden" name="confirmationToken" id="confirmationToken" />
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
