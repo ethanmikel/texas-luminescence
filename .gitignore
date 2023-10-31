@@ -1,4 +1,3 @@
-
 *.dll
 *.pdb
 *.dll
@@ -8,3 +7,4 @@
 *.cache
 *.editorconfig
 *.props
+.DS_Store

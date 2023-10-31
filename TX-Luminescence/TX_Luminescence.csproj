@@ -11,15 +11,15 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Models\" />
-    <None Remove="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Images\" />
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\lib\bootstrap-4.0.0\.github\ISSUE_TEMPLATE.md" />
     <None Include="wwwroot\lib\bootstrap-4.0.0\.github\CONTRIBUTING.md" />
+    <None Include="wwwroot\Images\tx-luminescence-logo.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.12" />
@@ -30,5 +30,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\Images\tx-luminescence-logo.jpg" />
+    <Content Remove="wwwroot\Images\" />
   </ItemGroup>
 </Project>
