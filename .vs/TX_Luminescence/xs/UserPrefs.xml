@@ -1,47 +1,18 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+﻿<Properties StartupConfiguration="{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}|https" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workbench ActiveDocument="TX-Luminescence/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="TX-Luminescence/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="TX-Luminescence/Controllers/HomeController.cs" />
-      <File FileName="TX-Luminescence/Views/Home/Index.cshtml" />
-      <File FileName="TX-Luminescence/Models/SourceModel.cs" />
-      <File FileName="TX-Luminescence/Views/Home/CurrentProjects.cshtml" />
       <File FileName="TX-Luminescence/Views/Home/Events.cshtml" />
-      <File FileName="TX-Luminescence/Views/Home/FAQs.cshtml" />
-      <File FileName="TX-Luminescence/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="TX-Luminescence/Views/Shared/_Layout.cshtml" Line="55" Column="34" />
-      <File FileName="TX-Luminescence/Controllers/RoleAdminController.cs" />
-      <File FileName="TX-Luminescence/Controllers/AccountController.cs" />
-      <File FileName="TX-Luminescence/DAL/AppDbContext.cs" />
-      <File FileName="TX-Luminescence/Utilities/AddUser.cs" />
-      <File FileName="TX-Luminescence/Seeding/SeedUsers.cs" />
-      <File FileName="TX-Luminescence/Properties/launchSettings.json" />
-      <File FileName="TX-Luminescence/Models/ViewModels/AccountViewModels.cs" />
-      <File FileName="TX-Luminescence/Models/AppUser.cs" />
-      <File FileName="TX-Luminescence/Models/ViewModels/RoleViewModels.cs" />
-      <File FileName="TX-Luminescence/Views/Account/ChangePassword.cshtml" />
-      <File FileName="TX-Luminescence/Views/Account/Index.cshtml" />
-      <File FileName="TX-Luminescence/Views/Account/Login.cshtml" />
-      <File FileName="TX-Luminescence/Views/Account/Register.cshtml" />
-      <File FileName="TX-Luminescence/Views/RoleAdmin/Create.cshtml" />
-      <File FileName="TX-Luminescence/Views/RoleAdmin/Edit.cshtml" />
-      <File FileName="TX-Luminescence/Views/RoleAdmin/Index.cshtml" />
-      <File FileName="TX-Luminescence/Views/Seed/Confirm.cshtml" />
-      <File FileName="TX-Luminescence/Views/Seed/Index.cshtml" />
-      <File FileName="TX-Luminescence/Views/Shared/_LoginPartial.cshtml" Line="1" Column="1" />
-      <File FileName="TX-Luminescence/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="TX-Luminescence/Program.cs" />
+      <File FileName="TX-Luminescence/Views/Home/Index.cshtml" />
+      <File FileName="TX-Luminescence/Views/Shared/_Layout.cshtml" Line="129" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TX_Luminescence" expanded="True">
             <Node name="TX_Luminescence">
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared">
                   <Node name="_Layout.cshtml" selected="True" />
                 </Node>
               </Node>
@@ -54,9 +25,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TX__Luminescence PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

@@ -26,15 +26,19 @@
         flex: 1; /* Allow content to grow and push footer down */
     }
 
+    .navbar-color {
+        background-color: #fff4e4;
+    }
+
     .footer {
         position: absolute;
         bottom: 0;
         width: 100%;
-        /* Set the fixed height of the footer here */
-        height: 8%;
-        line-height: 60px; /* Vertically center the text there */
+        display: flex;
+        justify-content: space-between; /* Align content to the left and right edges */
+        align-items: center; /* Vertically center the content */
+        height: 60px; /* Vertically center the text there */
         background-color: #f5f5f5;
-        padding-left: 2%;
     }
 
     /* Additional custom styles for your page */
@@ -90,10 +94,42 @@
             color: #fff4e4;
             border: 2px solid #e88c24;
         }
+
     navbarCollapse {
         color: #000;
         background-color: #000;
     }
+</style>
+
+<!-- Styling for the footer -->
+<style>
+    .left-content {
+        padding-left: 15px;
+    }
+
+    .right-content {
+        padding-right: 15px;
+        text-align: right;
+        color: #4b4c4d;
+    }
+
+    .vertical-bar {
+        margin: 0 10px;
+        font-weight: bold;
+    }
+
+    .right-content a {
+        font-size: 24px;
+        color: inherit;
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        opacity: 0.75;
+    }
+
+        .right-content a:hover {
+            opacity: 0.9;
+        }
 </style>
 <html>
 <body>
@@ -102,7 +138,7 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md fixed-top navbar-color" style="height: 75px;">
             <a href="@Url.Action("Index", "Home")" class="navbar-brand">
-                <img src="~/Images/tx-luminescence-logo.jpg" title="title" style="width: 7%" alt="additional title"/>
+                <img src="~/Images/tx-luminescence-logo.jpg" title="title" style="width: 7%" alt="additional title" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -147,9 +183,21 @@
 
     <!-- Footer -->
     <div class="footer">
-        All rights reserved to Texas Luminescence 2023.
+        <div class="left-content">
+            &copy; 2023 Texas Luminescence
+        </div>
+        <div class="right-content">
+            <a href="https://www.instagram.com/texasluminescence/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://luminescencetalk.slack.com/ssb/redirect" target="_blank"><i class="fa-brands fa-slack"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
     </div>
 
+    <script src="https://kit.fontawesome.com/c8a5abf612.js" crossorigin="anonymous"></script>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/popper.js/umd/popper.min.js"></script>
+    <script src="~/lib/bootstrap-4.0.0/js/bootstrap.bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
