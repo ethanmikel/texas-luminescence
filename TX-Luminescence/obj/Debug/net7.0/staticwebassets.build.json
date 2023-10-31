@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+FKQO8kXxd1ecPtlIafTzZ0+erEneETkj/ZOFXhBye8=",
+  "Hash": "dhgqXO39aocBNCoEcDlj3Tf1tfA93wihPku0sMN0gJU=",
   "Source": "TX_Luminescence",
   "BasePath": "_content/TX_Luminescence",
   "Mode": "Default",
@@ -1035,6 +1035,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/ethanmikel/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.12/staticwebassets/V5/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/wwwroot/.DS_Store",
+      "SourceId": "TX_Luminescence",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/wwwroot/",
+      "BasePath": "_content/TX_Luminescence",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/wwwroot/lib/bootstrap-4.0.0/_config.yml",

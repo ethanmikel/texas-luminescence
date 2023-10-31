@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/wwwroot/lib/bootstrap-4.0.0/CNAME",
       "PackagePath": "staticwebassets/lib/bootstrap-4.0.0"
     },

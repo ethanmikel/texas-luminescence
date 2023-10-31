@@ -90,6 +90,10 @@
             color: #fff4e4;
             border: 2px solid #e88c24;
         }
+    navbarCollapse {
+        color: #000;
+        background-color: #000;
+    }
 </style>
 <html>
 <body>
@@ -98,7 +102,7 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand-md fixed-top navbar-color" style="height: 75px;">
             <a href="@Url.Action("Index", "Home")" class="navbar-brand">
-                @*<img src="texas-luminescence/TX-Luminescence/Images/tx-luminescence-logo.jpg" title="title" alt="additional title" />*@
+                <img src="~/Images/tx-luminescence-logo.jpg" title="title" style="width: 7%" alt="additional title"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -130,8 +134,8 @@
                         </li>
                     }
                 }
+                @await Html.PartialAsync("_LoginPartial")
             </div>
-            @await Html.PartialAsync("_LoginPartial")
         </nav>
     </header>
 
