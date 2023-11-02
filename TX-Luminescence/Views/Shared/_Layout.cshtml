@@ -140,18 +140,18 @@
                 <!-- All the Buttons/Links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Current Projects</a>
+                        <a asp-controller="Home" asp-action="CurrentProjects" class="nav-link">Current Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a asp-controller="Home" asp-action="FAQs" class="nav-link">FAQs</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav me-3 mb-2 mb-lg-0 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="https://luminescencetalk.slack.com/ssb/redirect">Contact</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Apply</a>
+                        <a asp-controller="Account" asp-action="Register" class="nav-link">Apply</a>
                     </li>
                 </ul>
             </div>
