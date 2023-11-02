@@ -220,8 +220,6 @@
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.pdb
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.genruntimeconfig.cache
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/ref/TX_Luminescence.dll
-/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.Development.json
-/Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.json
 /Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.staticwebassets.runtime.json
 /Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
 /Users/jenny/Desktop/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.deps.json
