@@ -8,3 +8,7 @@
 *.editorconfig
 *.props
 .DS_Store
+TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
+TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
+TX-Luminescence/obj/Debug/net7.0/apphost
+*.txt

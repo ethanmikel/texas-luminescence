@@ -1,19 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Authorization
 @inject IAuthorizationService AuthorizationService
-@model TX_Luminescence.Models.SourceModel
 
 <!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="~/lib/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="~/lib/bootstrap-4.0.0/docs/4.0/examples/sticky-footer-navbarsticky-footer-navbar.css" rel="stylesheet">
-</head>
 <style>
     /* Add CSS to ensure the footer sticks to the bottom */
     body {
@@ -27,7 +16,7 @@
     }
 
     .navbar-color {
-        background-color: #fff4e4;
+        background-color: #fff4e4 !important;
     }
 
     .footer {
@@ -53,10 +42,6 @@
 
     code {
         font-size: 80%;
-    }
-
-    .navbar-color {
-        background-color: #fff4e4;
     }
 
     /* Add custom link styles */
@@ -131,55 +116,47 @@
             opacity: 0.9;
         }
 </style>
+
 <html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+
 <body>
-    <!-- This is the code for the navbar -->
-    <header>
-        <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md fixed-top navbar-color" style="height: 75px;">
-            <a href="@Url.Action("Index", "Home")" class="navbar-brand">
-                <img src="~/Images/tx-luminescence-logo.jpg" title="title" style="width: 7%" alt="additional title" />
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-color">
+        <div class="container-fluid">
+            <!-- Logo + Brand -->
+            <a class="navbar-brand" href="/">
+                <img src="~/Images/tx-luminescence-logo-rectangle.jpg" alt="TX Luminescence" width="225">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link custom-link" href="Index">About</a>
+            <!-- Code for Hamburger Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- All the Buttons/Links -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a asp-controller="Home" asp-action="CurrentProjects" class="nav-link">Current Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-link" asp-action="CurrentProjects">Current Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link custom-link" asp-action="Events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link custom-link" asp-action="FAQs">FAQs</a>
+                        <a asp-controller="Home" asp-action="FAQs" class="nav-link">FAQs</a>
                     </li>
                 </ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <a class="nav-link mr-2 custom-btn" asp-action="Contact">Contact</a>
-                </form>
-                @if (User.Identity.IsAuthenticated)
-                {
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <li>
-                            <a asp-controller="RoleAdmin" asp-action="Index" class="nav-link">Manage Users</a>
-                        </li>
-                    }
-                }
-                @await Html.PartialAsync("_LoginPartial")
+                <ul class="navbar-nav me-3 mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://luminescencetalk.slack.com/ssb/redirect">Contact</a>
+                    </li>
+                    <li>
+                        <a asp-controller="Account" asp-action="Register" class="nav-link">Apply</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-
-    <div class="wrapper">
-        <div class="container">
-            @RenderBody()
         </div>
-    </div>
+    </nav>
 
     <!-- Footer -->
     <div class="footer">
@@ -194,12 +171,15 @@
         </div>
     </div>
 
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <!--Scripts for Nav Bar-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"</script>
+    @RenderSection("Scripts", required: false)
+    <!--Script for Footer-->
     <script src="https://kit.fontawesome.com/c8a5abf612.js" crossorigin="anonymous"></script>
-    <script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/popper.js/umd/popper.min.js"></script>
-    <script src="~/lib/bootstrap-4.0.0/js/bootstrap.bundle.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
