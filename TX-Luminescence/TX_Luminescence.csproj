@@ -7,8 +7,6 @@
     <RootNamespace>TX_Luminescence</RootNamespace>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Models\" />
   </ItemGroup>
@@ -32,5 +30,12 @@
   <ItemGroup>
     <Content Remove="wwwroot\Images\tx-luminescence-logo.jpg" />
     <Content Remove="wwwroot\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Properties\launchSettings.json">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 </Project>
