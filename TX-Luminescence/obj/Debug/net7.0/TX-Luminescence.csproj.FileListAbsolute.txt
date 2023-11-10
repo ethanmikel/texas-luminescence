@@ -1,0 +1,8 @@
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.csproj.AssemblyReference.cache
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.AssemblyInfoInputs.cache
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.AssemblyInfo.cs
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.csproj.CoreCompileInputs.cache
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.MvcApplicationPartsAssemblyInfo.cache
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.RazorAssemblyInfo.cache
+/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/TX-Luminescence/TX-Luminescence/obj/Debug/net7.0/TX-Luminescence.RazorAssemblyInfo.cs
