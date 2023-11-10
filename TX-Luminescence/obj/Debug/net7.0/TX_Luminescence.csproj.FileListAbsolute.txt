@@ -38,8 +38,6 @@
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.dll
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/refint/TX_Luminescence.dll
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.pdb
-/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.Development.json
-/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.json
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.staticwebassets.runtime.json
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.deps.json
