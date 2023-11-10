@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TX_Luminescence", "TX-Luminescence\TX_Luminescence.csproj", "{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12AE5B9-D096-4A92-AA51-DDEF6CB6524E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {845F2DEF-A431-4550-B0F5-0D9CC4A1DCF2}
+	EndGlobalSection
+EndGlobal
