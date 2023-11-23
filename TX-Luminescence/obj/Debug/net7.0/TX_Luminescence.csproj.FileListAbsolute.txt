@@ -136,8 +136,6 @@
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/Debug/net7.0/TX_Luminescence.csproj.CopyComplete
-/Users/boseph/Downloads/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.Development.json
-/Users/boseph/Downloads/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/appsettings.json
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.staticwebassets.runtime.json
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence
 /Users/boseph/Downloads/texas-luminescence/TX-Luminescence/bin/Debug/net7.0/TX_Luminescence.deps.json
