@@ -3259,19 +3259,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/ethanmikel/.nuget/packages/": {}
+    "/Users/boseph/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
+      "projectUniqueName": "/Users/boseph/Downloads/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
       "projectName": "TX_Luminescence",
-      "projectPath": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
-      "packagesPath": "/Users/ethanmikel/.nuget/packages/",
-      "outputPath": "/Users/ethanmikel/Library/Mobile Documents/com~apple~CloudDocs/Dev/texas-luminescence/TX-Luminescence/obj/",
+      "projectPath": "/Users/boseph/Downloads/texas-luminescence/TX-Luminescence/TX_Luminescence.csproj",
+      "packagesPath": "/Users/boseph/.nuget/packages/",
+      "outputPath": "/Users/boseph/Downloads/texas-luminescence/TX-Luminescence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ethanmikel/.nuget/NuGet/NuGet.Config"
+        "/Users/boseph/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
