@@ -1,5 +1,3 @@
-# Group-6
-
 ## Terminal Commands
 
 #### Pulling from the Git Repo
